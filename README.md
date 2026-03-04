@@ -73,7 +73,7 @@ frontend
 │ └── App.tsx  
 
 docs  
-└── relazione.pdf
+└── relazione.tex
 
 README.md
 
