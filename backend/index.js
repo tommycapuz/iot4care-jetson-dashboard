@@ -139,6 +139,6 @@ app.get("/api/logs/download", (req, res) => {
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-    console.log(`Backend listening on http://localhost:${PORT}`);
+    console.log(`Backend listening on http://127.0.0.1:3001/api/session/status`);
     pushLog("Backend started");
 });
